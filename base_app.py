@@ -33,17 +33,13 @@ from PIL import Image
 import pandas as pd
 
 # Vectorizer
-news_vectorizer = open("resources/tfidf_vector.pkl","rb")
+news_vectorizer = open("tfidf_vector.pkl","rb")
 tweet_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
 
 # Load your raw data
-raw = pd.read_csv("resources/train.csv")
+raw = pd.read_csv("train.csv")
 
-#Load other tables for EDA
-#info = pd.read_csv("tables/info.csv")
-#comparison = pd.read_csv('comparison.csv')
-
-cleaned_data = pd.read_csv("resources/preprocessed_data.csv")
+cleaned_data = pd.read_csv("preprocessed_data.csv")
 
 # The main function where we will build the actual app
 def main():
@@ -155,13 +151,6 @@ def main():
 
 		wordcloud = WordCloud().generate(text)
 
-		# Display the generated image:
-		#plt.imshow(wordcloud, interpolation='bilinear')
-		#plt.axis("off")
-		#plt.show()
-		#st.pyplot()
-		#Cater for deprecation errors
-		#st.set_option('deprecation.showPyplotGlobalUse', False)
 		'>>>The Most repeated words in the tweet messages are: ``Climate, Change, Global, Warming, Change, https, RT, Today, CO e.t.c.``'
 
 	# Building out the predication page
