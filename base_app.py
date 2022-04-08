@@ -208,7 +208,7 @@ def main():
 		st.write('Nichodemus: nichodemus@smend.com')
 
         # Footer
-		image = Image.open('resources/Logo.jpg')
+		image = Image.open('Logo.jpg')
 		st.image(image, caption='Team2(2110ACDS_T2)', use_column_width=True)
 
 # Required to let Streamlit instantiate our web app.  
