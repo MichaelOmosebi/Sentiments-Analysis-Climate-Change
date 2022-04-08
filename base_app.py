@@ -110,6 +110,7 @@ def main():
 		plt.show()
 		st.pyplot()
 		st.set_option('deprecation.showPyplotGlobalUse', False)
+		st.set_option('deprecation.showPyplotGlobalUse', False)
 
 		'Some Neutral-to-Climate Change Tweets'
 		Neutral = gb.get_group(0)['message']
