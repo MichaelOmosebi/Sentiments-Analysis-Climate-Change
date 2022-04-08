@@ -109,6 +109,7 @@ def main():
 		plt.axis('off')
 		plt.show()
 		st.pyplot()
+		st.set_option('deprecation.showPyplotGlobalUse', False)
 
 		'Some Neutral-to-Climate Change Tweets'
 		Neutral = gb.get_group(0)['message']
@@ -122,6 +123,7 @@ def main():
 		plt.axis('off')
 		plt.show()
 		st.pyplot()
+		st.set_option('deprecation.showPyplotGlobalUse', False)
 
 		'Some Pro Climate Change Tweets'
 		Pro_tweets = gb.get_group(1)['message']
@@ -135,6 +137,7 @@ def main():
 		plt.axis('off')
 		plt.show()
 		st.pyplot()
+		st.set_option('deprecation.showPyplotGlobalUse', False)
 
 		'Some News Tweets'
 		News_tweets = gb.get_group(2)['message']
@@ -148,8 +151,10 @@ def main():
 		plt.axis('off')
 		plt.show()
 		st.pyplot()
+		st.set_option('deprecation.showPyplotGlobalUse', False)
 
 		wordcloud = WordCloud().generate(text)
+		st.set_option('deprecation.showPyplotGlobalUse', False)
 
 		'>>>The Most repeated words in the tweet messages are: ``Climate, Change, Global, Warming, Change, https, RT, Today, CO e.t.c.``'
 
