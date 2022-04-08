@@ -170,23 +170,23 @@ def main():
 			# Try loading in multiple models to give the user a choice
 			if model_choice == 'Logistic Regression':
 				#st.subheader("Classify with: {}".format(model_choice))
-				predictor = joblib.load(open(os.path.join("resources/model.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("model.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
             # st.write(prediction)
 			elif model_choice == 'Random Forest':
-				predictor = joblib.load(open(os.path.join("resources/RFC.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("RFC.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
             # st.write(prediction)
 			elif model_choice == 'Multinomial Naive Bayes':
-				predictor = joblib.load(open(os.path.join("resources/MNB.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("MNB.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
             # st.write(prediction)
 			elif model_choice == 'SupportVectorMachine':
-				predictor = joblib.load(open(os.path.join("resources/SVM.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("SVM.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
 			
 			elif model_choice == 'K Nearest Neighbours':
-				predictor = joblib.load(open(os.path.join("resources/KNN.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("KNN.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
 
 			# When model has successfully run, will print prediction
