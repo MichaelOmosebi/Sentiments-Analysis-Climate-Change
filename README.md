@@ -3,7 +3,7 @@
 
 ## 1) Overview
 
-![Streamlit](resources/imgs/streamlit.png)
+![Streamlit](resources/images/streamlit.png)
 
 This repository forms the basis of *Task 2* for the **Classification Predict** within EDSA's Data Science course. It hosts template code which will enable students to deploy a basic [Streamlit](https://www.streamlit.io/) web application.
 
@@ -11,7 +11,7 @@ As part of the predict, students are expected to expand on this base template; i
 
 #### 1.1) What is Streamlit?
 
-[![What is an API](resources/imgs/what-is-streamlit.png)](https://youtu.be/R2nr1uZ8ffc?list=PLgkF0qak9G49QlteBtxUIPapT8TzfPuB8)
+[![What is an API](resources/images/what-is-streamlit.png)](https://youtu.be/R2nr1uZ8ffc?list=PLgkF0qak9G49QlteBtxUIPapT8TzfPuB8)
 
 If you've ever had the misfortune of having to deploy a model as an API (as was required in the Regression Sprint), you'd know that to even get basic functionality can be a tricky ordeal. Extending this framework even further to act as a web server with dynamic visuals, multiple responsive pages, and robust deployment of your models... can be a nightmare. That's where Streamlit comes along to save the day! :star:
 
@@ -40,7 +40,7 @@ For this repository, we are only concerned with a single file:
 
 As described within the Predict instructions for the Classification Sprint, this code represents a *template* from which to extend your own work. As such, in order to modify the template, you will need to **[fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)** this repository. Failing to do this will lead to complications when trying to work on the web application remotely.
 
-![Fork Repo](resources/imgs/fork-repo.png)  
+![Fork Repo](resources/images/fork-repo.png)  
 
 To fork the repo, simply ensure that you are logged into your GitHub account, and then click on the 'fork' button at the top of this page as indicated within the figure above.
 
@@ -80,7 +80,7 @@ To do this, follow the steps below by running the given commands within a Git ba
 
 You should also be automatically directed to the base page of your web app. This should look something like:
 
-![Streamlit base page](resources/imgs/streamlit-base-splash-screen.png)
+![Streamlit base page](resources/images/streamlit-base-splash-screen.png)
 
 Congratulations! You've now officially deployed your first web application!
 
@@ -144,7 +144,7 @@ Where the specific `Network` and `External` URLs correspond to those assigned to
 
     If successful, you should see the landing page of your streamlit web app:
 
-![Streamlit base page](resources/imgs/streamlit-base-splash-screen.png)
+![Streamlit base page](resources/images/streamlit-base-splash-screen.png)
 
 **[On the Host]:**
 
@@ -162,4 +162,4 @@ This section of the repo will be periodically updated to represent common questi
 
 We wish you all the best in your learning experience :rocket:
 
-![Explore Data Science Academy](resources/imgs/EDSA_logo.png)
+![Explore Data Science Academy](resources/images/EDSA_logo.png)
