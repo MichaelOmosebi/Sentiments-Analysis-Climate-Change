@@ -23,6 +23,7 @@
 """
 # Streamlit dependencies
 import streamlit as st
+st.set_option('deprecation.showPyplotGlobalUse', False)
 import joblib,os
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
@@ -33,13 +34,13 @@ from PIL import Image
 import pandas as pd
 
 # Vectorizer
-news_vectorizer = open("tfidf_vector.pkl","rb")
+news_vectorizer = open("resources/tfidf_vector.pkl","rb")
 tweet_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
 
 # Load your raw data
-raw = pd.read_csv("train.csv")
+raw = pd.read_csv("resources/train.csv")
 
-cleaned_data = pd.read_csv("preprocessed_data.csv")
+cleaned_data = pd.read_csv("resources/preprocessed_data.csv")
 
 # The main function where we will build the actual app
 def main():
@@ -110,7 +111,6 @@ def main():
 		plt.show()
 		st.pyplot()
 		st.set_option('deprecation.showPyplotGlobalUse', False)
-		st.set_option('deprecation.showPyplotGlobalUse', False)
 
 		'Some Neutral-to-Climate Change Tweets'
 		Neutral = gb.get_group(0)['message']
@@ -176,23 +176,23 @@ def main():
 			# Try loading in multiple models to give the user a choice
 			if model_choice == 'Logistic Regression':
 				#st.subheader("Classify with: {}".format(model_choice))
-				predictor = joblib.load(open(os.path.join("model.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("resources/model.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
             # st.write(prediction)
 			elif model_choice == 'Random Forest':
-				predictor = joblib.load(open(os.path.join("RFC.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("resources/RFC.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
             # st.write(prediction)
 			elif model_choice == 'Multinomial Naive Bayes':
-				predictor = joblib.load(open(os.path.join("MNB.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("resources/MNB.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
             # st.write(prediction)
 			elif model_choice == 'SupportVectorMachine':
-				predictor = joblib.load(open(os.path.join("SVM.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("resources/SVM.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
 			
 			elif model_choice == 'K Nearest Neighbours':
-				predictor = joblib.load(open(os.path.join("KNN.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("resources/KNN.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
 
 			# When model has successfully run, will print prediction
@@ -214,7 +214,7 @@ def main():
 		st.write('Nichodemus: nichodemus@smend.com')
 
         # Footer
-		image = Image.open('Logo.jpg')
+		image = Image.open('resources/Logo.jpg')
 		st.image(image, caption='Team2(2110ACDS_T2)', use_column_width=True)
 
 # Required to let Streamlit instantiate our web app.  
