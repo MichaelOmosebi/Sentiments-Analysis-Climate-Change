@@ -163,3 +163,4 @@ This section of the repo will be periodically updated to represent common questi
 We wish you all the best in your learning experience :rocket:
 
 ![Explore Data Science Academy](resources/images/EDSA_logo.png)
+![SMEND Group](resources/images/Logo.png)
