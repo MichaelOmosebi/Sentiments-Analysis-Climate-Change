@@ -4,9 +4,11 @@
 
 
 ## 1) Summary of the Project
-The Acea Group is one of the leading Italian multiutility operators. Listed on the Italian Stock Exchange since 1999, the company manages and develops water and electricity networks and environmental services. Acea is the foremost Italian operator in the water services sector supplying 9 million inhabitants in Lazio, Tuscany, Umbria, Molise, Campania.
+The aim of this project is to determine how people perceive climate change and whether or not they believe it is a real threat, by analysing tweets scraped from tweeter. 
 
-This project focuses on the water sector to help Acea Group preserve precious waterbodies. As it is easy to imagine, a water supply company struggles with the need to forecast the water level in a waterbody (water spring, lake, river, or aquifer) to handle daily consumption. During fall and winter waterbodies are refilled, but during spring and summer they start to drain. To help preserve the health of these waterbodies it is important to predict the most efficient water availability, in terms of level and water flow for each day of the year.
+In addition, a Streamlit App was created. This App processes a statement/tweet and gives a sentiment classification output based on the four classifications defined in the notebook.
+
+The business value motivation of the project would be an improvement to companies' market research efforts in gauging how their product/service may be received.
 
 
 For this repository, please refer to the following files:
@@ -46,7 +48,7 @@ To do this, follow the steps below by running the given commands within a Git ba
  2. Clone the *forked* repo to your local machine.
 
  ```bash
- git clone https://github.com/{your-account-name}/classification-predict-streamlit-template.git
+ git clone https://github.com/{your-account-name}/Sentiments-Analysis-Climate-Change.git
  ```  
 
  3. Navigate to the base of the cloned repo, and start the Streamlit app.
