@@ -84,3 +84,11 @@ Your recommendations are welcome.
 
 
 ![Team Logo](resources/imgs/Logo.jpg)
+
+<p align='center'>
+   <img src="resources/imgs/Logo.jpg"
+   alt='EXPLORE Data Science Academy Logo'
+   width=450px
+   height=120/>
+   <br>
+</p>
