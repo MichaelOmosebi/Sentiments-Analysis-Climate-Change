@@ -76,4 +76,4 @@ Comet ☄ was used for versioning during project development.
 Your recommendations are welcome.
 
 
-![Streamlit base page](resources/imgs/Logo.png)
+![Team Logo](resources/imgs/Logo.png)
