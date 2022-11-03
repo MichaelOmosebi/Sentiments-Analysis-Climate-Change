@@ -67,11 +67,13 @@ To do this, follow the steps below by running the given commands within a Git ba
 ```
 
 You should also be automatically directed to the first page of your web app. This should look something like:
+
 ![Streamlit base page](resources/imgs/App_page.png)
 
 
 Comet ☄ was used for versioning during project development.
 
 Your recommendations are welcome.
+
 
 ![Streamlit base page](resources/imgs/Logo.png)
