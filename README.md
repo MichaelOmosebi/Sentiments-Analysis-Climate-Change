@@ -89,6 +89,6 @@ Your recommendations are welcome.
    <img src="resources/imgs/Logo.jpg"
    alt='EXPLORE Data Science Academy Logo'
    width=450px
-   height=120/>
+   height=150/>
    <br>
 </p>
