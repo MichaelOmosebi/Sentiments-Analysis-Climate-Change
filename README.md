@@ -21,7 +21,7 @@ For this repository, please refer to the following files:
 | `datasets`             | The train and test files       |
 | `models`               | Trained modeks and vectorizers |
 
-## 3) Project Workflow
+## 2) Project Workflow
  - Exploratory Data Analysis
  - Data Engineering (NLP Techniques such as: stopwords/invalid characters removal, lemmatization, tokenization...)
  - Data Vectorization using tf-idf
