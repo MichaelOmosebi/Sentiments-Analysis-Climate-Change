@@ -82,9 +82,6 @@ Comet ☄ was used for versioning during project development.
 
 Your recommendations are welcome.
 
-
-![Team Logo](resources/imgs/Logo.jpg)
-
 <p align='center'>
    <img src="resources/imgs/Logo.jpg"
    alt='EXPLORE Data Science Academy Logo'
