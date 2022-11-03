@@ -23,9 +23,7 @@ For this repository, please refer to the following files:
 | `models`               | Trained modeks and vectorizers |
 
 
-![Streamlit base page](resources/imgs/App_page.png)
-
-## 2) Project Usage Instruction
+## 2) Getting Started - Project Usage Instruction
 
 #### 2.1) Creating a copy of this repo
 
@@ -68,8 +66,12 @@ To do this, follow the steps below by running the given commands within a Git ba
     Network URL: http://192.168.43.124:8501
 ```
 
-You should also be automatically directed to the base page of your web app. This should look something like:
+You should also be automatically directed to the first page of your web app. This should look something like:
+![Streamlit base page](resources/imgs/App_page.png)
+
+
+Comet ☄ was used for versioning during project development.
+
+Your recommendations are welcome.
 
 ![Streamlit base page](resources/imgs/Logo.png)
-
-Thanks for interacting! Recommendations are welcome.
