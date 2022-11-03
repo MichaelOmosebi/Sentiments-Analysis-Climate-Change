@@ -23,6 +23,8 @@ For this repository, please refer to the following files:
 | `models`               | Trained modeks and vectorizers |
 
 
+![Streamlit base page](resources/imgs/App_page.png)
+
 ## 2) Project Usage Instruction
 
 #### 2.1) Creating a copy of this repo
