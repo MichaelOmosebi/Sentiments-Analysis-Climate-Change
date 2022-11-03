@@ -83,4 +83,4 @@ Comet ☄ was used for versioning during project development.
 Your recommendations are welcome.
 
 
-![Team Logo](resources/imgs/Logo.png)
+![Team Logo](resources/imgs/Logo.jpg)
